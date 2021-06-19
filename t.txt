@@ -1,3 +1,6 @@
 1 first commit by admin
 2 commit by admin
   checking pulling
+  
+2 first commit by D
+3 2nd commit by D
