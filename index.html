@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>js-project</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    
+    <body>
+        <form class="" action="" method="get" accept-charset="utf-8">
+            <div id="a">
+                <label for="name">Enter Name</label>
+                <br />
+                <input type="text" name="name" id="text1" onkeypress="return searchKeyPress(event);"/>
+                <br />
+                <button onclick="pushList()" id="btn" type="button" >enter</button>
+        
+                <div id="b">
+                    <h3>Student list</h3>
+                    <br>
+                    <br>
+                    <label id= "student1">1. Student1</label>
+                    <button id="delete1" type="button" onclick="popList(0)">Remove</button>
+                    <button id="edit1" type="button" onclick="editList(0)">Edit</button>
+                    <br>
+                    <br>
+                    <label id="student2">2. Student2</label>
+                    <button id="delete2" type="button" onclick="popList(1)">Remove</button>
+                    <button id="edit2" type="button" onclick="editList(1)">Edit</button>
+                    <br>
+                    <br>
+                    <label id="student3">3. Student3</label>
+                    <button id="delete3" type="button" onclick="popList(2)">Remove</button>
+                    <button id="edit3" type="button" onclick="editList(2)">Edit</button>
+                    <br>
+                    <br>
+                    <label id="student4">4. Student4</label>
+                    <button id="delete4" type="button" onclick="popList(3)">Remove</button>
+                    <button id="edit4" type="button" onclick="editList(3)">Edit</button>
+                    <br>
+                    <br>
+                    <label id="student5">5. Student5</label>
+                    <button id="delete5" type="button" onclick="popList(4)">Remove</button>
+                    <button id="edit5" type="button" onclick="editList(4)">Edit</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

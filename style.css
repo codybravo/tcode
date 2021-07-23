@@ -1,0 +1,40 @@
+body {
+    padding: 4vw;
+    background-color: black;
+}
+#a {
+    text-align: center;
+    border: 3px solid red;
+    padding: 4vw 16vw;
+    background-image: url("img.png");
+    /*border-color: #ff0000;*/
+}
+#b {
+    text-align: left;
+    padding: 2vw;
+    margin: 2vw;
+    border: 3px solid black;
+    background-color: red;
+} 
+
+label {
+    width : 25vw;
+    font-size: 2vw;
+    display: inline-block;
+} 
+
+button {
+    background-color: orange;
+    border-width: 1vw;
+    border-color: black;
+    border-radius: 50%;
+    padding: 1vw;
+    font-size: 1.5vw;
+} 
+#text1 {
+    width: 50vw;
+    height: 2.5vw;
+    color: white;
+    font-size: 1.5vw;
+    background-color: black;
+}
