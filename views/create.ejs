@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %>    
+</head>
+<body>
+    <div id="crt-div">
+        <form action="/create" method="post">
+            <input class="crt-item" id="crt-title" value="Title" name="title" type="text">
+            <br>
+            <textarea class="crt-item" name="snip" id="" cols="30" rows="10"></textarea>
+            <br>
+            <button class="crt-item"  id="crt-save">Save</button>
+        </form>
+            <a href="/"><button class="crt-item"  id="crt-cancel">Cancel</button></a>
+        
+    </div>
+</body>
+</html>
