@@ -216,6 +216,6 @@ const reformatIt = (theText, textType) => {
   }
   console.log("reformated word done", reformatted);
 
-  console.log("bokachoda");
+  console.log("pasted");
   return reformatted;
 };
