@@ -6,7 +6,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab", "notifications", "scripting", "clipboardRead"],
+  "permissions": ["storage", "activeTab", "notifications", "scripting", "clipboardWrite", "clipboardRead"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
